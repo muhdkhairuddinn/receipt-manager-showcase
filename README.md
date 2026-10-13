@@ -2,7 +2,7 @@
 
 Snap a receipt, check the amount, claim at the end of the month. A small mobile-first web app I built for fun because I got tired of a pile of paper receipts.
 
-![Dashboard, receipt list and receipt detail](docs/hero.png)
+<p align="center"><img src="docs/hero.png" alt="Dashboard, receipt list and receipt detail" width="620"></p>
 
 > Showcase repo: screenshots and notes only. The source code is private, and everything in the screenshots is fake demo data.
 
@@ -25,7 +25,7 @@ Claiming expenses meant keeping paper receipts, typing amounts into a spreadshee
 
 | Dashboard | Receipts | Receipt detail |
 | --- | --- | --- |
-| ![Dashboard](docs/dashboard.png) | ![Receipts](docs/receipts.png) | ![Detail](docs/detail.png) |
+| <img src="docs/dashboard.png" alt="Dashboard" width="180"> | <img src="docs/receipts.png" alt="Receipts" width="180"> | <img src="docs/detail.png" alt="Detail" width="180"> |
 
 ## Built with
 
