@@ -30,7 +30,11 @@ Claiming expenses meant keeping paper receipts, typing amounts into a spreadshee
 | --- | --- | --- |
 | <img src="docs/dashboard.png" alt="Dashboard" width="230"> | <img src="docs/receipts.png" alt="Receipts" width="230"> | <img src="docs/detail.png" alt="Detail" width="230"> |
 
-The screenshots are from an earlier version, so the newer screens look a little different.
+| Add a receipt |
+| --- |
+| <img src="docs/upload.png" alt="Add a receipt: the date, amount and Dinner are filled in from the photo" width="230"> |
+
+The receipts in these screenshots are made-up samples, and the names are fake.
 
 ## Built with
 
