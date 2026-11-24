@@ -42,12 +42,4 @@ The screenshots are from an earlier version, so the newer screens look a little 
 - **Hosting:** my own Linux server, with Docker containers and Caddy in front for HTTPS. It moved here from free hosting tiers.
 - **Alerts:** Telegram messages for new receipts and server problems
 
-## Things I learned
-
-- OCR on phone photos fails in weird ways. A dark table around the receipt made it return nothing, so I crop to the paper first. Later it read a printed `2:00 PM` as `2:O0 PM` (a letter O instead of a zero) and dropped the time. I tested it on a real screenshot, found the cause, fixed it and added tests.
-- A "submit" button should be safe to press twice. Block duplicates, pick up half-finished work, and say clearly when a login has expired.
-- Caches need limits. One cache per user, a small size, and one job at a time stopped one busy user from slowing everyone else.
-- Running your own server means you own the boring parts: backups, updates, alerts when something breaks, and locking things down. I ran a security review on my own app and fixed what it found.
-- Keep the app simple where it counts. It runs one server process on purpose, so its small in-memory limits stay correct.
-
 Made by **KH4I**
